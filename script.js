@@ -19,6 +19,7 @@ let prefixFunction = (word) => {
     return prefix;
 }
 
+// IT COMPARES THE FIRST ARRAY TO BRING THE RESULT IF IT FINDS ANY PREFIX WORD
 console.log(prefixFunction(prefixArrayOne))
-
+// IT COMPARES THE SECOND ARRAY TO BRING THE RESULT IF IT DOES NOT FIND ANY PREFIX
 console.log(prefixFunction(prefixArrayTwo))
